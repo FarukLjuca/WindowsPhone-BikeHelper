@@ -1,0 +1,47 @@
+﻿<Page
+    x:Class="Bike_Helper.View.LoginPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Bike_Helper.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Style="{StaticResource PageStyle}">
+
+    <StackPanel Margin="40, 20">
+        <TextBlock Text="Login"
+                   Style="{StaticResource TitleStyle}"
+                   />
+        
+        <TextBlock Text="Email:"
+                   Style="{StaticResource PlaceholderStyle}"
+                   />
+        <TextBox Name="tbEmail"
+                 InputScope="EmailSmtpAddress"
+                 Text="fljuca1@etf.unsa.ba"
+                 />
+        
+        <TextBlock Text="Password:"
+                   Style="{StaticResource PlaceholderStyle}"
+                   />
+        <PasswordBox Name="pbPassword"
+                     Password="pass"
+                     />
+        
+        <Button x:ConnectionId='1' Content="Login"
+                HorizontalAlignment="Right"
+                                   
+                />
+        
+        <HyperlinkButton x:ConnectionId='2' Content="Register"
+                         Margin="0, 10, 0, 0"
+                         Style="{StaticResource HyperlinkStyle}"
+                                               
+                         />
+        <HyperlinkButton x:ConnectionId='3' Content="Forgot password"
+                         Style="{StaticResource HyperlinkStyle}"
+                                                     
+                         />
+    </StackPanel>
+</Page>
+

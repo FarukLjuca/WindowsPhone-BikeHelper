@@ -1,7 +1,7 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
     <LocalAssembly PathName="c:\users\faruk\documents\visual studio 2013\projects\bike helper v5\bike helper\obj\debug\intermediatexaml\bike helper.exe" HashGuid="dd8910bb-9e43-7d7c-732b-e4c989d3d1b0" />
-    <ReferenceAssembly PathName="c:\users\faruk\source\repos\windowsphone-bikehelper\bike helper v5\packages\newtonsoft.json.6.0.5\lib\portable-net45+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="96120131-2625-5747-239a-d2fb6f2e1188" />
-    <ReferenceAssembly PathName="c:\users\faruk\source\repos\windowsphone-bikehelper\bike helper v5\packages\refit.2.4.1\lib\portable-win81+wpa81\refit.dll" HashGuid="6ff5bec6-84b2-e9ae-5cb4-00d96e84eba8" />
+    <ReferenceAssembly PathName="c:\users\faruk\documents\visual studio 2013\projects\bike helper v5\packages\newtonsoft.json.6.0.5\lib\portable-net45+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="96120131-2625-5747-239a-d2fb6f2e1188" />
+    <ReferenceAssembly PathName="c:\users\faruk\documents\visual studio 2013\projects\bike helper v5\packages\refit.2.4.1\lib\portable-win81+wpa81\refit.dll" HashGuid="6ff5bec6-84b2-e9ae-5cb4-00d96e84eba8" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>
