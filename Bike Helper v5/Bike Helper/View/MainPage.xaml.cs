@@ -10,6 +10,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Devices.Geolocation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Services.Maps;
 using Windows.UI.Popups;
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
@@ -30,7 +31,10 @@ namespace Bike_Helper
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        private bool firstLoad = true;
         private StatusBar statusBar;
+        private List<Store> stores;
+        private Geoposition myGeoposition;
 
         public StatusBar StatusBar
         {
@@ -51,45 +55,39 @@ namespace Bike_Helper
 
             this.NavigationCacheMode = NavigationCacheMode.Required;
         }
-
-        /// <summary>
-        /// Invoked when this page is about to be displayed in a Frame.
-        /// </summary>
-        /// <param name="e">Event data that describes how this page was reached.
-        /// This parameter is typically used to configure the page.</param>
-        protected override async void OnNavigatedTo(NavigationEventArgs e)
+        
+        protected async override void OnNavigatedTo(NavigationEventArgs e)
         {
-            // TODO: Prepare page for display here.
-
-            // TODO: If your application contains multiple pages, ensure that you are
-            // handling the hardware Back button by registering for the
-            // Windows.Phone.UI.Input.HardwareButtons.BackPressed event.
-            // If you are using the NavigationHelper provided by some templates,
-            // this event is handled for you.
-
             StatusBar.ProgressIndicator.Text = "Detecting current location...";
             await statusBar.ProgressIndicator.ShowAsync();
         }
 
-        private void mcMainMap_Loaded(object sender, RoutedEventArgs e)
+        private async void mcMainMap_Loaded(object sender, RoutedEventArgs e)
         {
             try
             {
-                SetMap();
+                if (firstLoad)
+                {
+                    SetMap();
+                }
+                else
+                {
+                    await StatusBar.ProgressIndicator.HideAsync();
+                }
             }
             catch (Exception ex)
             {
                 MessageDialog dialog = new MessageDialog(ex.Message);
-                dialog.ShowAsync();
+                await dialog.ShowAsync();
             }
         }
 
         private async void SetMap()
         {
-            Geolocator geolocator = new Geolocator();
-            Geoposition geoposition = await geolocator.GetGeopositionAsync();
-            await StatusBar.ProgressIndicator.HideAsync();
-            await mcMainMap.TrySetViewAsync(geoposition.Coordinate.Point, 15);
+            myGeoposition = await new Geolocator().GetGeopositionAsync();
+            StatusBar.ProgressIndicator.Text = "Synchronizing with server...";
+            await StatusBar.ProgressIndicator.ShowAsync();
+            await mcMainMap.TrySetViewAsync(myGeoposition.Coordinate.Point, 15);
 
             //Todo styling
             Pushpin youPushpin = new Pushpin();
@@ -98,14 +96,14 @@ namespace Bike_Helper
             youTextBlock.Text = "You are here";
             youPushpin.Content = youTextBlock;
 
-            MapControl.SetLocation(youPushpin, geoposition.Coordinate.Point);
+            MapControl.SetLocation(youPushpin, myGeoposition.Coordinate.Point);
             MapControl.SetNormalizedAnchorPoint(youPushpin, new Point(0.5, 0.5));
             mcMainMap.Children.Add(youPushpin);
 
             IStoreAPI storeAPI = RestService.For<IStoreAPI>("https://bikehelper.herokuapp.com");
-            List<Store> storeList = await storeAPI.GetStore();
+            stores = await storeAPI.GetStore();
 
-            foreach (Store store in storeList)
+            foreach (Store store in stores)
             {
                 Pushpin pushpin = new Pushpin();
                 pushpin.Store = store;
@@ -122,12 +120,56 @@ namespace Bike_Helper
                 MapControl.SetNormalizedAnchorPoint(pushpin, new Point(0.5, 0.5));
                 mcMainMap.Children.Add(pushpin);
             }
+
+            await StatusBar.ProgressIndicator.HideAsync();
         }
 
         void pushpin_Click(object sender, RoutedEventArgs e)
         {
             Pushpin button = sender as Pushpin;
             Frame.Navigate(typeof(DetailsPage), button.Store);
+        }
+
+        private async void Find_Click(object sender, RoutedEventArgs e)
+        {
+            Store closestStore = null;
+            double closestDistance = Double.MaxValue;
+
+            foreach (Store store in stores)
+            {
+                // Pythagorean theorem for distance between two points
+                double x1 = store.Latitude;
+                double y1 = store.Longitude;
+                double x2 = myGeoposition.Coordinate.Point.Position.Latitude;
+                double y2 = myGeoposition.Coordinate.Point.Position.Longitude;
+
+                double distance = Math.Sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
+                if (distance < closestDistance)
+                {
+                    closestDistance = distance;
+                    closestStore = store;
+                }
+            }
+
+            if (closestStore != null)
+            {
+                BasicGeoposition myBasicGeoposition = new BasicGeoposition();
+                myBasicGeoposition.Latitude = myGeoposition.Coordinate.Point.Position.Latitude;
+                myBasicGeoposition.Longitude = myGeoposition.Coordinate.Point.Position.Longitude;
+                Geopoint myGeopoint = new Geopoint(myBasicGeoposition);
+
+                BasicGeoposition storeBasicGeoposition = new BasicGeoposition();
+                storeBasicGeoposition.Latitude = closestStore.Latitude;
+                storeBasicGeoposition.Longitude = closestStore.Longitude;
+                Geopoint storeGeopoint = new Geopoint(storeBasicGeoposition);
+
+                MapRouteFinderResult finder = await MapRouteFinder.GetWalkingRouteAsync(myGeopoint, storeGeopoint);
+                if (finder.Status == MapRouteFinderStatus.Success)
+                {
+                    mcMainMap.Routes.Add(new MapRouteView(finder.Route));
+                    await mcMainMap.TrySetViewBoundsAsync(finder.Route.BoundingBox, null, MapAnimationKind.Bow);
+                }
+            }
         }
     }
 }

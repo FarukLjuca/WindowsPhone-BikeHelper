@@ -18,7 +18,8 @@
     <Page.BottomAppBar>
         <CommandBar IsSticky="True" x:Name="appBar">
             <CommandBar.PrimaryCommands>
-                <AppBarButton Icon="Find"
+                <AppBarButton x:ConnectionId='2' Icon="Find"
+                                                
                               Label="Find Closest"/>
                 <AppBarButton Icon="Contact"
                               Label="Login"/>

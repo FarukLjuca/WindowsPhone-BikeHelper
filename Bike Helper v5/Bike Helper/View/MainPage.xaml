@@ -19,6 +19,7 @@
         <CommandBar IsSticky="True" x:Name="appBar">
             <CommandBar.PrimaryCommands>
                 <AppBarButton Icon="Find"
+                              Click="Find_Click"
                               Label="Find Closest"/>
                 <AppBarButton Icon="Contact"
                               Label="Login"/>

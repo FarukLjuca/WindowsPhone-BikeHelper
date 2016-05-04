@@ -90,6 +90,7 @@
     </Compile>
     <Compile Include="API\IStoreAPI.cs" />
     <Compile Include="Controls\Pushpin.cs" />
+    <Compile Include="View\BasicGeoposi.cs" />
     <Compile Include="View\DetailsPage.xaml.cs">
       <DependentUpon>DetailsPage.xaml</DependentUpon>
     </Compile>

@@ -1,17 +1,18 @@
 App.xaml.cs
 API\IStoreAPI.cs
 Controls\Pushpin.cs
+View\BasicGeoposi.cs
 View\DetailsPage.xaml.cs
 View\MainPage.xaml.cs
 Model\Store.cs
 Properties\AssemblyInfo.cs
-C:\Users\Faruk\documents\visual studio 2013\Projects\Bike Helper v5\Bike Helper\obj\Debug\App.g.i.cs
-C:\Users\Faruk\documents\visual studio 2013\Projects\Bike Helper v5\Bike Helper\obj\Debug\App.g.cs
-C:\Users\Faruk\documents\visual studio 2013\Projects\Bike Helper v5\Bike Helper\obj\Debug\View\DetailsPage.g.i.cs
-C:\Users\Faruk\documents\visual studio 2013\Projects\Bike Helper v5\Bike Helper\obj\Debug\View\DetailsPage.g.cs
-C:\Users\Faruk\documents\visual studio 2013\Projects\Bike Helper v5\Bike Helper\obj\Debug\View\MainPage.g.i.cs
-C:\Users\Faruk\documents\visual studio 2013\Projects\Bike Helper v5\Bike Helper\obj\Debug\View\MainPage.g.cs
-C:\Users\Faruk\documents\visual studio 2013\Projects\Bike Helper v5\Bike Helper\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\App.g.i.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\App.g.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\View\DetailsPage.g.i.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\View\DetailsPage.g.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\View\MainPage.g.i.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\View\MainPage.g.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\XamlTypeInfo.g.cs
 obj\Debug\\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
 obj\Debug\\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
 obj\Debug\\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
