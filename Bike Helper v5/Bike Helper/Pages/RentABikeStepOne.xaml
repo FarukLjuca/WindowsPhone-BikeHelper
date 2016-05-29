@@ -1,0 +1,80 @@
+﻿<Page
+    x:Class="Bike_Helper.Pages.RentABikeStepOne"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Bike_Helper.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Style="{StaticResource PageStyle}">
+
+    <Grid Margin="10, 0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Row="0"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="3">
+            <TextBlock Text="Choose a user:"
+                       Style="{StaticResource PlaceholderStyle}"/>
+            <ComboBox Name="cbbUser"
+                      ItemsSource="{Binding}"/>
+            <TextBlock Text="Choose a store:"
+                       Style="{StaticResource PlaceholderStyle}"/>
+            <ListView Name="lvStore"
+                      SelectionMode="Single"
+                      ItemsSource="{Binding}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Border Tapped="Card_Tapped"
+                                Tag="{Binding}"
+                                BorderBrush="Transparent"
+                                BorderThickness="5">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Image Source="{Binding Image}"
+                                   Width="150"
+                                   Grid.Row="0"
+                                   Grid.RowSpan="2"
+                                   Grid.Column="0"/>
+                                <TextBlock Text="{Binding Name}"
+                                           FontSize="14px"
+                                           Grid.Row="0"
+                                           Grid.Column="1"/>
+                                <TextBlock Text="{Binding Description}"
+                                       TextWrapping="Wrap"
+                                       Grid.Row="1"
+                                       Grid.Column="1"/>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+
+        <Button Content="Next"
+                Click="Next_Click"
+                Grid.Row="1"
+                Grid.Column="2" />
+
+        <Button Content="Cancel"
+                Click="Cancel_Click "
+                Grid.Row="1"
+                Grid.Column="0" />
+    </Grid>
+</Page>

@@ -1,0 +1,69 @@
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Release\App.xbf
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Release\Pages\BikePage.xbf
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Release\Pages\DetailsPage.xbf
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Release\Pages\EmployeePage.xbf
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Release\Pages\LoginPage.xbf
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Release\Pages\MainPage.xbf
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Release\Pages\RentABikeStepOne.xbf
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Release\Pages\RentABikeStepTwo.xbf
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Release\Bike Helper.xr.xml
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Release\Bike Helper.exe
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Release\Bike Helper.pdb
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Release\resources.pri
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Release\AppxManifest.xml
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Release\Bike Helper.build.appxrecipe
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Release\Newtonsoft.Json.dll
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Release\Refit.dll
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Release\Newtonsoft.Json.xml
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Release\Refit.pdb
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Release\Refit.pri
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\App.g.i.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\App.g.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\BikePage.g.i.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\BikePage.g.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\DetailsPage.g.i.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\DetailsPage.g.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\EmployeePage.g.i.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\EmployeePage.g.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\LoginPage.g.i.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\LoginPage.g.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\MainPage.g.i.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\MainPage.g.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\RentABikeStepOne.g.i.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\RentABikeStepOne.g.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\RentABikeStepTwo.g.i.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\RentABikeStepTwo.g.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\XamlTypeInfo.g.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\App.xaml
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\BikePage.xaml
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\EmployeePage.xaml
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\LoginPage.xaml
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\MainPage.xaml
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\RentABikeStepOne.xaml
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\RentABikeStepTwo.xaml
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\App.xbf
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\BikePage.xbf
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\EmployeePage.xbf
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\LoginPage.xbf
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\MainPage.xbf
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\RentABikeStepOne.xbf
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\RentABikeStepTwo.xbf
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\XamlSaveStateFile.xml
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\DetailsPage.xaml
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Pages\DetailsPage.xbf
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Bike Helper.exe
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Bike Helper.pdb
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Bike Helper.csproj.GenerateResource.Cache
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\priconfig.xml
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\priconfig.xml.intermediate
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\layout.resfiles
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\layout.resfiles.intermediate
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\resources.resfiles
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\resources.resfiles.intermediate
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\pri.resfiles
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\pri.resfiles.intermediate
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\qualifiers.txt
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\qualifiers.txt.intermediate
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\Refit.pri.xml
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Release\ProjectArchitectures.txt

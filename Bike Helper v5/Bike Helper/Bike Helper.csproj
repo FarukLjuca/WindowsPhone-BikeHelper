@@ -81,31 +81,6 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <Folder Include="Helpers\" />
-    <Folder Include="ViewModel\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="API\IStoreAPI.cs" />
-    <Compile Include="Controls\Pushpin.cs" />
-    <Compile Include="View\BasicGeoposi.cs" />
-    <Compile Include="View\DetailsPage.xaml.cs">
-      <DependentUpon>DetailsPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\MainPage.xaml.cs">
-      <DependentUpon>MainPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Model\Store.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <AppxManifest Include="Package.appxmanifest">
-      <SubType>Designer</SubType>
-    </AppxManifest>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Assets\Logo.scale-240.png" />
     <Content Include="Assets\SmallLogo.scale-240.png" />
     <Content Include="Assets\SplashScreen.scale-240.png" />
@@ -114,17 +89,79 @@
     <Content Include="Assets\WideLogo.scale-240.png" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="API\API.cs" />
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Bike.cs" />
+    <Compile Include="Classes\Rent.cs" />
+    <Compile Include="Helpers\Response.cs" />
+    <Compile Include="Classes\User.cs" />
+    <Compile Include="Controls\Pushpin.cs" />
+    <Compile Include="Helpers\AppHelper.cs" />
+    <Compile Include="Helpers\AppValues.cs" />
+    <Compile Include="Helpers\HelperParameter.cs" />
+    <Compile Include="Pages\BikePage.xaml.cs">
+      <DependentUpon>BikePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DetailsPage.xaml.cs">
+      <DependentUpon>DetailsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EmployeePage.xaml.cs">
+      <DependentUpon>EmployeePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Store.cs" />
+    <Compile Include="Pages\RentABikeStepOne.xaml.cs">
+      <DependentUpon>RentABikeStepOne.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RentABikeStepTwo.xaml.cs">
+      <DependentUpon>RentABikeStepTwo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="View\DetailsPage.xaml">
+    <Page Include="Pages\BikePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\MainPage.xaml">
+    <Page Include="Pages\DetailsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\EmployeePage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\LoginPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\RentABikeStepOne.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\RentABikeStepTwo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>

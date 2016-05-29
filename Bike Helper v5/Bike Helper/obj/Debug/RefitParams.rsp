@@ -1,17 +1,39 @@
+API\API.cs
 App.xaml.cs
-API\IStoreAPI.cs
+Classes\Bike.cs
+Classes\Rent.cs
+Helpers\Response.cs
+Classes\User.cs
 Controls\Pushpin.cs
-View\BasicGeoposi.cs
-View\DetailsPage.xaml.cs
-View\MainPage.xaml.cs
-Model\Store.cs
+Helpers\AppHelper.cs
+Helpers\AppValues.cs
+Helpers\HelperParameter.cs
+Pages\BikePage.xaml.cs
+Pages\DetailsPage.xaml.cs
+Pages\EmployeePage.xaml.cs
+Pages\LoginPage.xaml.cs
+Pages\MainPage.xaml.cs
+Classes\Store.cs
+Pages\RentABikeStepOne.xaml.cs
+Pages\RentABikeStepTwo.xaml.cs
 Properties\AssemblyInfo.cs
+C:\Users\Faruk\AppData\Local\Temp\WindowsPhoneApp,Version=v8.1.AssemblyAttributes.cs
 C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\App.g.i.cs
 C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\App.g.cs
-C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\View\DetailsPage.g.i.cs
-C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\View\DetailsPage.g.cs
-C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\View\MainPage.g.i.cs
-C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\View\MainPage.g.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\Pages\BikePage.g.i.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\Pages\BikePage.g.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\Pages\DetailsPage.g.i.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\Pages\DetailsPage.g.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\Pages\EmployeePage.g.i.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\Pages\EmployeePage.g.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\Pages\LoginPage.g.i.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\Pages\MainPage.g.i.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\Pages\MainPage.g.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\Pages\RentABikeStepOne.g.i.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\Pages\RentABikeStepOne.g.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\Pages\RentABikeStepTwo.g.i.cs
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\Pages\RentABikeStepTwo.g.cs
 C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\obj\Debug\XamlTypeInfo.g.cs
 obj\Debug\\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
 obj\Debug\\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs

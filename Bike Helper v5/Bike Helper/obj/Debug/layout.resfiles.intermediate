@@ -6,5 +6,10 @@ Assets\StoreLogo.scale-240.png
 Assets\WideLogo.scale-240.png
 App.xbf
 Bike Helper.xr.xml
-View\DetailsPage.xbf
-View\MainPage.xbf
+Pages\BikePage.xbf
+Pages\DetailsPage.xbf
+Pages\EmployeePage.xbf
+Pages\LoginPage.xbf
+Pages\MainPage.xbf
+Pages\RentABikeStepOne.xbf
+Pages\RentABikeStepTwo.xbf

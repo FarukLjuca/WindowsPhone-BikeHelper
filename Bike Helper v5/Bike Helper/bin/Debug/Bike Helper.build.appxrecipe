@@ -57,11 +57,26 @@
     <AppxPackagedFile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Debug\View\DetailsPage.xbf">
-      <PackagePath>View\DetailsPage.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Debug\Pages\BikePage.xbf">
+      <PackagePath>Pages\BikePage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Debug\View\MainPage.xbf">
-      <PackagePath>View\MainPage.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Debug\Pages\DetailsPage.xbf">
+      <PackagePath>Pages\DetailsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Debug\Pages\EmployeePage.xbf">
+      <PackagePath>Pages\EmployeePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Debug\Pages\LoginPage.xbf">
+      <PackagePath>Pages\LoginPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Debug\Pages\MainPage.xbf">
+      <PackagePath>Pages\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Debug\Pages\RentABikeStepOne.xbf">
+      <PackagePath>Pages\RentABikeStepOne.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Debug\Pages\RentABikeStepTwo.xbf">
+      <PackagePath>Pages\RentABikeStepTwo.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\WindowsPhone-BikeHelper\Bike Helper v5\Bike Helper\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

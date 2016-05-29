@@ -124,21 +124,55 @@ namespace Bike_Helper.Bike_Helper_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[6];
-            _typeNameTable[0] = "Bike_Helper.View.DetailsPage";
+            _typeNameTable = new string[23];
+            _typeNameTable[0] = "Bike_Helper.Pages.BikePage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "Bike_Helper.MainPage";
-            _typeNameTable[4] = "Windows.UI.ViewManagement.StatusBar";
-            _typeNameTable[5] = "Object";
+            _typeNameTable[3] = "Bike_Helper.View.DetailsPage";
+            _typeNameTable[4] = "System.Collections.ObjectModel.ObservableCollection`1<Bike_Helper.Model.Bike>";
+            _typeNameTable[5] = "System.Collections.ObjectModel.Collection`1<Bike_Helper.Model.Bike>";
+            _typeNameTable[6] = "Object";
+            _typeNameTable[7] = "Bike_Helper.Model.Bike";
+            _typeNameTable[8] = "Int32";
+            _typeNameTable[9] = "System.Nullable`1<Int32>";
+            _typeNameTable[10] = "System.ValueType";
+            _typeNameTable[11] = "String";
+            _typeNameTable[12] = "Bike_Helper.View.EmployeePage";
+            _typeNameTable[13] = "Bike_Helper.View.LoginPage";
+            _typeNameTable[14] = "Bike_Helper.MainPage";
+            _typeNameTable[15] = "Windows.UI.ViewManagement.StatusBar";
+            _typeNameTable[16] = "Bike_Helper.Pages.RentABikeStepOne";
+            _typeNameTable[17] = "System.Collections.Generic.List`1<Bike_Helper.Model.User>";
+            _typeNameTable[18] = "Bike_Helper.Model.User";
+            _typeNameTable[19] = "System.Collections.Generic.List`1<Bike_Helper.Model.Store>";
+            _typeNameTable[20] = "Bike_Helper.Model.Store";
+            _typeNameTable[21] = "Single";
+            _typeNameTable[22] = "Bike_Helper.Pages.RentABikeStepTwo";
 
-            _typeTable = new global::System.Type[6];
-            _typeTable[0] = typeof(global::Bike_Helper.View.DetailsPage);
+            _typeTable = new global::System.Type[23];
+            _typeTable[0] = typeof(global::Bike_Helper.Pages.BikePage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::Bike_Helper.MainPage);
-            _typeTable[4] = typeof(global::Windows.UI.ViewManagement.StatusBar);
-            _typeTable[5] = typeof(global::System.Object);
+            _typeTable[3] = typeof(global::Bike_Helper.View.DetailsPage);
+            _typeTable[4] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Bike_Helper.Model.Bike>);
+            _typeTable[5] = typeof(global::System.Collections.ObjectModel.Collection<global::Bike_Helper.Model.Bike>);
+            _typeTable[6] = typeof(global::System.Object);
+            _typeTable[7] = typeof(global::Bike_Helper.Model.Bike);
+            _typeTable[8] = typeof(global::System.Int32);
+            _typeTable[9] = typeof(global::System.Nullable<global::System.Int32>);
+            _typeTable[10] = typeof(global::System.ValueType);
+            _typeTable[11] = typeof(global::System.String);
+            _typeTable[12] = typeof(global::Bike_Helper.View.EmployeePage);
+            _typeTable[13] = typeof(global::Bike_Helper.View.LoginPage);
+            _typeTable[14] = typeof(global::Bike_Helper.MainPage);
+            _typeTable[15] = typeof(global::Windows.UI.ViewManagement.StatusBar);
+            _typeTable[16] = typeof(global::Bike_Helper.Pages.RentABikeStepOne);
+            _typeTable[17] = typeof(global::System.Collections.Generic.List<global::Bike_Helper.Model.User>);
+            _typeTable[18] = typeof(global::Bike_Helper.Model.User);
+            _typeTable[19] = typeof(global::System.Collections.Generic.List<global::Bike_Helper.Model.Store>);
+            _typeTable[20] = typeof(global::Bike_Helper.Model.Store);
+            _typeTable[21] = typeof(global::System.Single);
+            _typeTable[22] = typeof(global::Bike_Helper.Pages.RentABikeStepTwo);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -173,8 +207,43 @@ namespace Bike_Helper.Bike_Helper_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_DetailsPage() { return new global::Bike_Helper.View.DetailsPage(); }
-        private object Activate_3_MainPage() { return new global::Bike_Helper.MainPage(); }
+        private object Activate_0_BikePage() { return new global::Bike_Helper.Pages.BikePage(); }
+        private object Activate_3_DetailsPage() { return new global::Bike_Helper.View.DetailsPage(); }
+        private object Activate_4_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Bike_Helper.Model.Bike>(); }
+        private object Activate_5_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Bike_Helper.Model.Bike>(); }
+        private object Activate_7_Bike() { return new global::Bike_Helper.Model.Bike(); }
+        private object Activate_12_EmployeePage() { return new global::Bike_Helper.View.EmployeePage(); }
+        private object Activate_13_LoginPage() { return new global::Bike_Helper.View.LoginPage(); }
+        private object Activate_14_MainPage() { return new global::Bike_Helper.MainPage(); }
+        private object Activate_16_RentABikeStepOne() { return new global::Bike_Helper.Pages.RentABikeStepOne(); }
+        private object Activate_17_List() { return new global::System.Collections.Generic.List<global::Bike_Helper.Model.User>(); }
+        private object Activate_19_List() { return new global::System.Collections.Generic.List<global::Bike_Helper.Model.Store>(); }
+        private object Activate_20_Store() { return new global::Bike_Helper.Model.Store(); }
+        private object Activate_22_RentABikeStepTwo() { return new global::Bike_Helper.Pages.RentABikeStepTwo(); }
+        private void VectorAdd_4_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Bike_Helper.Model.Bike>)instance;
+            var newItem = (global::Bike_Helper.Model.Bike)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_5_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Bike_Helper.Model.Bike>)instance;
+            var newItem = (global::Bike_Helper.Model.Bike)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_17_List(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Bike_Helper.Model.User>)instance;
+            var newItem = (global::Bike_Helper.Model.User)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_19_List(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Bike_Helper.Model.Store>)instance;
+            var newItem = (global::Bike_Helper.Model.Store)item;
+            collection.Add(newItem);
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -186,9 +255,9 @@ namespace Bike_Helper.Bike_Helper_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  Bike_Helper.View.DetailsPage
+            case 0:   //  Bike_Helper.Pages.BikePage
                 userType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_DetailsPage;
+                userType.Activator = Activate_0_BikePage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -201,32 +270,392 @@ namespace Bike_Helper.Bike_Helper_XamlTypeInfo
                 xamlType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  Bike_Helper.MainPage
+            case 3:   //  Bike_Helper.View.DetailsPage
                 userType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_MainPage;
+                userType.Activator = Activate_3_DetailsPage;
+                userType.AddMemberName("Bikes");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  System.Collections.ObjectModel.ObservableCollection`1<Bike_Helper.Model.Bike>
+                userType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Bike_Helper.Model.Bike>"));
+                userType.CollectionAdd = VectorAdd_4_ObservableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 5:   //  System.Collections.ObjectModel.Collection`1<Bike_Helper.Model.Bike>
+                userType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_5_Collection;
+                userType.CollectionAdd = VectorAdd_5_Collection;
+                xamlType = userType;
+                break;
+
+            case 6:   //  Object
+                xamlType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 7:   //  Bike_Helper.Model.Bike
+                userType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_7_Bike;
+                userType.AddMemberName("Id");
+                userType.AddMemberName("Code");
+                userType.AddMemberName("StoreId");
+                userType.AddMemberName("UserId");
+                userType.AddMemberName("Model");
+                userType.AddMemberName("Description");
+                userType.AddMemberName("Image");
+                userType.AddMemberName("FullUrl");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 8:   //  Int32
+                xamlType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 9:   //  System.Nullable`1<Int32>
+                userType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 10:   //  System.ValueType
+                userType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case 11:   //  String
+                xamlType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 12:   //  Bike_Helper.View.EmployeePage
+                userType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_12_EmployeePage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 13:   //  Bike_Helper.View.LoginPage
+                userType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_13_LoginPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 14:   //  Bike_Helper.MainPage
+                userType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_14_MainPage;
                 userType.AddMemberName("StatusBar");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  Windows.UI.ViewManagement.StatusBar
+            case 15:   //  Windows.UI.ViewManagement.StatusBar
                 userType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 5:   //  Object
+            case 16:   //  Bike_Helper.Pages.RentABikeStepOne
+                userType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_16_RentABikeStepOne;
+                userType.AddMemberName("Users");
+                userType.AddMemberName("Stores");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 17:   //  System.Collections.Generic.List`1<Bike_Helper.Model.User>
+                userType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.CollectionAdd = VectorAdd_17_List;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 18:   //  Bike_Helper.Model.User
+                userType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.AddMemberName("Id");
+                userType.AddMemberName("Name");
+                userType.AddMemberName("Email");
+                userType.AddMemberName("Password");
+                userType.AddMemberName("Level");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 19:   //  System.Collections.Generic.List`1<Bike_Helper.Model.Store>
+                userType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.CollectionAdd = VectorAdd_19_List;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 20:   //  Bike_Helper.Model.Store
+                userType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_20_Store;
+                userType.AddMemberName("Id");
+                userType.AddMemberName("Type");
+                userType.AddMemberName("Latitude");
+                userType.AddMemberName("Longitude");
+                userType.AddMemberName("Name");
+                userType.AddMemberName("Description");
+                userType.AddMemberName("Image");
+                userType.AddMemberName("FullUrl");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 21:   //  Single
                 xamlType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 22:   //  Bike_Helper.Pages.RentABikeStepTwo
+                userType = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_22_RentABikeStepTwo;
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
             }
             return xamlType;
         }
 
 
-        private object get_0_MainPage_StatusBar(object instance)
+        private object get_0_DetailsPage_Bikes(object instance)
+        {
+            var that = (global::Bike_Helper.View.DetailsPage)instance;
+            return that.Bikes;
+        }
+        private void set_0_DetailsPage_Bikes(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.View.DetailsPage)instance;
+            that.Bikes = (global::System.Collections.ObjectModel.ObservableCollection<global::Bike_Helper.Model.Bike>)Value;
+        }
+        private object get_1_Bike_Id(object instance)
+        {
+            var that = (global::Bike_Helper.Model.Bike)instance;
+            return that.Id;
+        }
+        private void set_1_Bike_Id(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.Model.Bike)instance;
+            that.Id = (global::System.Int32)Value;
+        }
+        private object get_2_Bike_Code(object instance)
+        {
+            var that = (global::Bike_Helper.Model.Bike)instance;
+            return that.Code;
+        }
+        private void set_2_Bike_Code(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.Model.Bike)instance;
+            that.Code = (global::System.Int32)Value;
+        }
+        private object get_3_Bike_StoreId(object instance)
+        {
+            var that = (global::Bike_Helper.Model.Bike)instance;
+            return that.StoreId;
+        }
+        private void set_3_Bike_StoreId(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.Model.Bike)instance;
+            that.StoreId = (global::System.Nullable<global::System.Int32>)Value;
+        }
+        private object get_4_Bike_UserId(object instance)
+        {
+            var that = (global::Bike_Helper.Model.Bike)instance;
+            return that.UserId;
+        }
+        private void set_4_Bike_UserId(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.Model.Bike)instance;
+            that.UserId = (global::System.Nullable<global::System.Int32>)Value;
+        }
+        private object get_5_Bike_Model(object instance)
+        {
+            var that = (global::Bike_Helper.Model.Bike)instance;
+            return that.Model;
+        }
+        private void set_5_Bike_Model(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.Model.Bike)instance;
+            that.Model = (global::System.String)Value;
+        }
+        private object get_6_Bike_Description(object instance)
+        {
+            var that = (global::Bike_Helper.Model.Bike)instance;
+            return that.Description;
+        }
+        private void set_6_Bike_Description(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.Model.Bike)instance;
+            that.Description = (global::System.String)Value;
+        }
+        private object get_7_Bike_Image(object instance)
+        {
+            var that = (global::Bike_Helper.Model.Bike)instance;
+            return that.Image;
+        }
+        private void set_7_Bike_Image(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.Model.Bike)instance;
+            that.Image = (global::System.String)Value;
+        }
+        private object get_8_Bike_FullUrl(object instance)
+        {
+            var that = (global::Bike_Helper.Model.Bike)instance;
+            return that.FullUrl;
+        }
+        private object get_9_MainPage_StatusBar(object instance)
         {
             var that = (global::Bike_Helper.MainPage)instance;
             return that.StatusBar;
+        }
+        private object get_10_RentABikeStepOne_Users(object instance)
+        {
+            var that = (global::Bike_Helper.Pages.RentABikeStepOne)instance;
+            return that.Users;
+        }
+        private void set_10_RentABikeStepOne_Users(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.Pages.RentABikeStepOne)instance;
+            that.Users = (global::System.Collections.Generic.List<global::Bike_Helper.Model.User>)Value;
+        }
+        private object get_11_User_Id(object instance)
+        {
+            var that = (global::Bike_Helper.Model.User)instance;
+            return that.Id;
+        }
+        private void set_11_User_Id(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.Model.User)instance;
+            that.Id = (global::System.Nullable<global::System.Int32>)Value;
+        }
+        private object get_12_User_Name(object instance)
+        {
+            var that = (global::Bike_Helper.Model.User)instance;
+            return that.Name;
+        }
+        private void set_12_User_Name(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.Model.User)instance;
+            that.Name = (global::System.String)Value;
+        }
+        private object get_13_User_Email(object instance)
+        {
+            var that = (global::Bike_Helper.Model.User)instance;
+            return that.Email;
+        }
+        private void set_13_User_Email(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.Model.User)instance;
+            that.Email = (global::System.String)Value;
+        }
+        private object get_14_User_Password(object instance)
+        {
+            var that = (global::Bike_Helper.Model.User)instance;
+            return that.Password;
+        }
+        private void set_14_User_Password(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.Model.User)instance;
+            that.Password = (global::System.String)Value;
+        }
+        private object get_15_User_Level(object instance)
+        {
+            var that = (global::Bike_Helper.Model.User)instance;
+            return that.Level;
+        }
+        private void set_15_User_Level(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.Model.User)instance;
+            that.Level = (global::System.Int32)Value;
+        }
+        private object get_16_RentABikeStepOne_Stores(object instance)
+        {
+            var that = (global::Bike_Helper.Pages.RentABikeStepOne)instance;
+            return that.Stores;
+        }
+        private void set_16_RentABikeStepOne_Stores(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.Pages.RentABikeStepOne)instance;
+            that.Stores = (global::System.Collections.Generic.List<global::Bike_Helper.Model.Store>)Value;
+        }
+        private object get_17_Store_Id(object instance)
+        {
+            var that = (global::Bike_Helper.Model.Store)instance;
+            return that.Id;
+        }
+        private void set_17_Store_Id(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.Model.Store)instance;
+            that.Id = (global::System.Int32)Value;
+        }
+        private object get_18_Store_Type(object instance)
+        {
+            var that = (global::Bike_Helper.Model.Store)instance;
+            return that.Type;
+        }
+        private void set_18_Store_Type(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.Model.Store)instance;
+            that.Type = (global::System.String)Value;
+        }
+        private object get_19_Store_Latitude(object instance)
+        {
+            var that = (global::Bike_Helper.Model.Store)instance;
+            return that.Latitude;
+        }
+        private void set_19_Store_Latitude(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.Model.Store)instance;
+            that.Latitude = (global::System.Single)Value;
+        }
+        private object get_20_Store_Longitude(object instance)
+        {
+            var that = (global::Bike_Helper.Model.Store)instance;
+            return that.Longitude;
+        }
+        private void set_20_Store_Longitude(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.Model.Store)instance;
+            that.Longitude = (global::System.Single)Value;
+        }
+        private object get_21_Store_Name(object instance)
+        {
+            var that = (global::Bike_Helper.Model.Store)instance;
+            return that.Name;
+        }
+        private void set_21_Store_Name(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.Model.Store)instance;
+            that.Name = (global::System.String)Value;
+        }
+        private object get_22_Store_Description(object instance)
+        {
+            var that = (global::Bike_Helper.Model.Store)instance;
+            return that.Description;
+        }
+        private void set_22_Store_Description(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.Model.Store)instance;
+            that.Description = (global::System.String)Value;
+        }
+        private object get_23_Store_Image(object instance)
+        {
+            var that = (global::Bike_Helper.Model.Store)instance;
+            return that.Image;
+        }
+        private void set_23_Store_Image(object instance, object Value)
+        {
+            var that = (global::Bike_Helper.Model.Store)instance;
+            that.Image = (global::System.String)Value;
+        }
+        private object get_24_Store_FullUrl(object instance)
+        {
+            var that = (global::Bike_Helper.Model.Store)instance;
+            return that.FullUrl;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -236,10 +665,154 @@ namespace Bike_Helper.Bike_Helper_XamlTypeInfo
 
             switch (longMemberName)
             {
+            case "Bike_Helper.View.DetailsPage.Bikes":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.View.DetailsPage");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "Bikes", "System.Collections.ObjectModel.ObservableCollection`1<Bike_Helper.Model.Bike>");
+                xamlMember.Getter = get_0_DetailsPage_Bikes;
+                xamlMember.Setter = set_0_DetailsPage_Bikes;
+                break;
+            case "Bike_Helper.Model.Bike.Id":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Model.Bike");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "Id", "Int32");
+                xamlMember.Getter = get_1_Bike_Id;
+                xamlMember.Setter = set_1_Bike_Id;
+                break;
+            case "Bike_Helper.Model.Bike.Code":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Model.Bike");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "Code", "Int32");
+                xamlMember.Getter = get_2_Bike_Code;
+                xamlMember.Setter = set_2_Bike_Code;
+                break;
+            case "Bike_Helper.Model.Bike.StoreId":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Model.Bike");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "StoreId", "System.Nullable`1<Int32>");
+                xamlMember.Getter = get_3_Bike_StoreId;
+                xamlMember.Setter = set_3_Bike_StoreId;
+                break;
+            case "Bike_Helper.Model.Bike.UserId":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Model.Bike");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "UserId", "System.Nullable`1<Int32>");
+                xamlMember.Getter = get_4_Bike_UserId;
+                xamlMember.Setter = set_4_Bike_UserId;
+                break;
+            case "Bike_Helper.Model.Bike.Model":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Model.Bike");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "Model", "String");
+                xamlMember.Getter = get_5_Bike_Model;
+                xamlMember.Setter = set_5_Bike_Model;
+                break;
+            case "Bike_Helper.Model.Bike.Description":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Model.Bike");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "Description", "String");
+                xamlMember.Getter = get_6_Bike_Description;
+                xamlMember.Setter = set_6_Bike_Description;
+                break;
+            case "Bike_Helper.Model.Bike.Image":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Model.Bike");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "Image", "String");
+                xamlMember.Getter = get_7_Bike_Image;
+                xamlMember.Setter = set_7_Bike_Image;
+                break;
+            case "Bike_Helper.Model.Bike.FullUrl":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Model.Bike");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "FullUrl", "String");
+                xamlMember.Getter = get_8_Bike_FullUrl;
+                xamlMember.SetIsReadOnly();
+                break;
             case "Bike_Helper.MainPage.StatusBar":
                 userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.MainPage");
                 xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "StatusBar", "Windows.UI.ViewManagement.StatusBar");
-                xamlMember.Getter = get_0_MainPage_StatusBar;
+                xamlMember.Getter = get_9_MainPage_StatusBar;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Bike_Helper.Pages.RentABikeStepOne.Users":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Pages.RentABikeStepOne");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "Users", "System.Collections.Generic.List`1<Bike_Helper.Model.User>");
+                xamlMember.Getter = get_10_RentABikeStepOne_Users;
+                xamlMember.Setter = set_10_RentABikeStepOne_Users;
+                break;
+            case "Bike_Helper.Model.User.Id":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Model.User");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "Id", "System.Nullable`1<Int32>");
+                xamlMember.Getter = get_11_User_Id;
+                xamlMember.Setter = set_11_User_Id;
+                break;
+            case "Bike_Helper.Model.User.Name":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Model.User");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "Name", "String");
+                xamlMember.Getter = get_12_User_Name;
+                xamlMember.Setter = set_12_User_Name;
+                break;
+            case "Bike_Helper.Model.User.Email":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Model.User");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "Email", "String");
+                xamlMember.Getter = get_13_User_Email;
+                xamlMember.Setter = set_13_User_Email;
+                break;
+            case "Bike_Helper.Model.User.Password":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Model.User");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "Password", "String");
+                xamlMember.Getter = get_14_User_Password;
+                xamlMember.Setter = set_14_User_Password;
+                break;
+            case "Bike_Helper.Model.User.Level":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Model.User");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "Level", "Int32");
+                xamlMember.Getter = get_15_User_Level;
+                xamlMember.Setter = set_15_User_Level;
+                break;
+            case "Bike_Helper.Pages.RentABikeStepOne.Stores":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Pages.RentABikeStepOne");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "Stores", "System.Collections.Generic.List`1<Bike_Helper.Model.Store>");
+                xamlMember.Getter = get_16_RentABikeStepOne_Stores;
+                xamlMember.Setter = set_16_RentABikeStepOne_Stores;
+                break;
+            case "Bike_Helper.Model.Store.Id":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Model.Store");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "Id", "Int32");
+                xamlMember.Getter = get_17_Store_Id;
+                xamlMember.Setter = set_17_Store_Id;
+                break;
+            case "Bike_Helper.Model.Store.Type":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Model.Store");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "Type", "String");
+                xamlMember.Getter = get_18_Store_Type;
+                xamlMember.Setter = set_18_Store_Type;
+                break;
+            case "Bike_Helper.Model.Store.Latitude":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Model.Store");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "Latitude", "Single");
+                xamlMember.Getter = get_19_Store_Latitude;
+                xamlMember.Setter = set_19_Store_Latitude;
+                break;
+            case "Bike_Helper.Model.Store.Longitude":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Model.Store");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "Longitude", "Single");
+                xamlMember.Getter = get_20_Store_Longitude;
+                xamlMember.Setter = set_20_Store_Longitude;
+                break;
+            case "Bike_Helper.Model.Store.Name":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Model.Store");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "Name", "String");
+                xamlMember.Getter = get_21_Store_Name;
+                xamlMember.Setter = set_21_Store_Name;
+                break;
+            case "Bike_Helper.Model.Store.Description":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Model.Store");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "Description", "String");
+                xamlMember.Getter = get_22_Store_Description;
+                xamlMember.Setter = set_22_Store_Description;
+                break;
+            case "Bike_Helper.Model.Store.Image":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Model.Store");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "Image", "String");
+                xamlMember.Getter = get_23_Store_Image;
+                xamlMember.Setter = set_23_Store_Image;
+                break;
+            case "Bike_Helper.Model.Store.FullUrl":
+                userType = (global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bike_Helper.Model.Store");
+                xamlMember = new global::Bike_Helper.Bike_Helper_XamlTypeInfo.XamlMember(this, "FullUrl", "String");
+                xamlMember.Getter = get_24_Store_FullUrl;
                 xamlMember.SetIsReadOnly();
                 break;
             }

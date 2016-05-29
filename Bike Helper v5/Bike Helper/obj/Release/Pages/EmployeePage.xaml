@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="Bike_Helper.View.EmployeePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Bike_Helper.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Style="{StaticResource PageStyle}">
+
+    <Pivot>
+        <PivotItem Header="Actions">
+            <StackPanel>
+                <Button x:ConnectionId='2' Content="Rent a bike"
+                HorizontalAlignment="Center"
+                                       />
+                
+                <Button x:ConnectionId='3' Content="Return a bike"
+                HorizontalAlignment="Center"
+                                         />
+            </StackPanel>
+        </PivotItem>
+
+        <PivotItem Header="Statistics">
+            <ListView Name="lvStatus" />
+        </PivotItem>
+
+        <PivotItem Header="Account">
+            <StackPanel>
+                <TextBlock Name="txInfo"
+                           Style="{StaticResource DescriptionStyle}"/>
+                <Button x:ConnectionId='1' Content="Logout"
+                                            
+                        HorizontalAlignment="Center"/>
+                <Button Content="Change Password"
+                        HorizontalAlignment="Center"/>
+            </StackPanel>
+        </PivotItem>
+    </Pivot>
+</Page>
+

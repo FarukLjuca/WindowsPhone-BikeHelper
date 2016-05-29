@@ -1,0 +1,36 @@
+﻿<Application
+    x:Class="Bike_Helper.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Bike_Helper">
+
+    <Application.Resources>
+        <Style TargetType="Page" x:Key="PageStyle">
+            <Setter Property="Background" Value="Teal" />
+        </Style>
+        
+        <Style TargetType="TextBlock" x:Key="TitleStyle">
+            <Setter Property="FontSize" Value="36" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="TextWrapping" Value="WrapWholeWords" />
+            <Setter Property="Margin" Value="0, 20, 0, 30" />
+        </Style>
+
+        <Style TargetType="TextBlock" x:Key="DescriptionStyle">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="TextWrapping" Value="WrapWholeWords" />
+            <Setter Property="Margin" Value="20, 0, 20, 0" />
+        </Style>
+
+        <Style TargetType="TextBlock" x:Key="PlaceholderStyle">
+            <Setter Property="FontSize" Value="18" />
+        </Style>
+
+        <Style TargetType="HyperlinkButton" x:Key="HyperlinkStyle">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+        </Style>
+    </Application.Resources>
+</Application>
+

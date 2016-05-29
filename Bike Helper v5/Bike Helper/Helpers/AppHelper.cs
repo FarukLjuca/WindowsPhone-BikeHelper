@@ -20,10 +20,10 @@ namespace Bike_Helper.Helpers
             var toastTextElements = toastXml.GetElementsByTagName("text");
             toastTextElements[0].AppendChild(toastXml.CreateTextNode(message));
             toast = new ToastNotification(toastXml);
-            toast.ExpirationTime = DateTime.Now.AddSeconds(1);
+            toast.ExpirationTime = DateTime.Now.AddSeconds(2);
             ToastNotificationManager.CreateToastNotifier().Show(toast);
 
-            timer = new Timer(_ => HideToast(), null, new TimeSpan(0, 0, 5), new TimeSpan(0, 0, 5));
+            timer = new Timer(_ => HideToast(), null, new TimeSpan(0, 0, 2), new TimeSpan(0, 0, 2));
         }
 
         private static void HideToast()
